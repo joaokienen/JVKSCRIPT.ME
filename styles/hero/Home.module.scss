@@ -1,0 +1,40 @@
+.containerHeroMain {
+  transition: all 2s ease;
+  background: rgb(26,23,16);
+  background: linear-gradient(0deg, rgba(26,23,16,1) 0%, rgba(0,0,0,1) 40%);
+  min-height: 100vh;
+}
+.journy, .karm, .coder {
+  opacity: 0;
+  display: none;
+  width: 55%;
+  height: 25px;
+  cursor: pointer;
+  border-image-slice: 1;
+  border-width: 1px; 
+  background: transparent;
+  font-family: monospace;
+  font-size: 10px;
+  margin: 10px 0 0 0;
+  transition: all 5s ease;
+  border-image-source: linear-gradient(to right, #C2B280, #373635);
+  color: #eedfb1;
+}
+
+.journy {
+  margin: 20px 0 0 0;
+  font-size: 12px;
+  width: 60%;
+  height: 30px;
+  border-image-source: linear-gradient(to right, #cac1a7, #373635);
+  color: #ffffff;
+}
+
+@media (max-width: 600px) {
+  .containerHeroMain {
+    background: rgb(0,0,0);
+    border-width: 1px;
+    border-style: solid;
+    border-image: linear-gradient( to bottom, #C2B280, #373635) 0 100%;
+  }
+}

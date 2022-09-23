@@ -1,0 +1,236 @@
+@-webkit-keyframes blink {
+  0% {
+    opacity: 0;
+  }
+  40% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  90% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@-moz-keyframes blink {
+  0% {
+    opacity: 0;
+  }
+  40% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  90% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@-o-keyframes blink {
+  0% {
+    opacity: 0;
+  }
+  40% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  90% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@keyframes blink {
+  0% {
+    opacity: 0;
+  }
+  40% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  90% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@-webkit-keyframes type {
+  to {
+    width: 80%;
+  }
+}
+@-moz-keyframes type {
+  to {
+    width: 80%;
+  }
+}
+@-o-keyframes type {
+  to {
+    width: 80%;
+  }
+}
+@keyframes type {
+  to {
+    width: 80%;
+  }
+}
+
+@keyframes cssAnimationHidden {
+  to   { visibility: visible; }
+}
+  
+.line00 {
+  color: #ffffff;
+  transition: color 3s ease;
+  -webkit-animation: type .5s 1s steps(20, end) forwards;
+  -moz-animation: type .5s 1s steps(20, end) forwards;
+  -o-animation: type .5s 1s steps(20, end) forwards;
+  animation: type .5s 1s steps(20, end) forwards;
+}
+.cursor00 {
+  color: #848884;
+  -webkit-animation: blink 2s 1s 2 forwards;
+  -moz-animation: blink 2s 1s 2 forwards;
+  -o-animation: blink 2s 1s 2 forwards;
+  animation: blink 2s 1s 2 forwards;
+}
+.line01 {
+  color: #ffffff;
+  transition: 3s ease;
+  -webkit-animation: type .5s 5s steps(20, end) forwards;
+  -moz-animation: type .5s 5s steps(20, end) forwards;
+  -o-animation: type .5s 5s steps(20, end) forwards;
+  animation: type .5s 5s steps(20, end) forwards;
+}
+.cursor01 {
+  color: #848884;
+  -webkit-animation: blink 0.5s 5s 4 forwards;
+  -moz-animation: blink 0.5s 5s 4 forwards;
+  -o-animation: blink 0.5s 5s 4 forwards;
+  animation: blink 0.5s 5s 4 forwards;
+}
+
+.line1 {
+  color: #ffffff;
+  transition: 3s ease;
+  -webkit-animation: type .5s 7s steps(20, end) forwards;
+  -moz-animation: type .5s 7s steps(20, end) forwards;
+  -o-animation: type .5s 7s steps(20, end) forwards;
+  animation: type .5s 7s steps(20, end) forwards;
+}
+.cursor1 {
+  color: #4682B4;
+  -webkit-animation: blink 2s 7s 2 forwards;
+  -moz-animation: blink 2s 7s 2 forwards;
+  -o-animation: blink 2s 7s 2 forwards;
+  animation: blink 2s 7s 2 forwards;
+}
+  
+.line2 {
+  color: #8da4b6;
+  transition: opacity 5s ease;
+  -webkit-animation: type .5s 11s steps(20, end) forwards;
+  -moz-animation: type .5s 11s steps(20, end) forwards;
+  -o-animation: type .5s 11s steps(20, end) forwards;
+  animation: type .5s 11s steps(20, end) forwards;
+}
+.cursor2 {
+  color: #8da4b6;
+  -webkit-animation: blink 1s 11s 2 forwards;
+  -moz-animation: blink 1s 11s 2 forwards;
+  -o-animation: blink 1s 11s 2 forwards;
+  animation: blink 1s 11s 2 forwards;
+}
+
+.line02 {
+  color: #848884;
+  transition: opacity 5s ease;
+  -webkit-animation: type .5s 13s steps(20, end) forwards;
+  -moz-animation: type .5s 13s steps(20, end) forwards;
+  -o-animation: type .5s 13s steps(20, end) forwards;
+  animation: type .5s 13s steps(20, end) forwards;
+}
+.cursor02 {
+  color: #848884;
+  -webkit-animation: blink 1s 13s 2 forwards;
+  -moz-animation: blink 1s 13s 2 forwards;
+  -o-animation: blink 1s 13s 2 forwards;
+  animation: blink 1s 13s 2 forwards;
+}
+  
+.line3 {
+  color: #8da4b6;
+  transition: opacity 5s ease;
+  -webkit-animation: type .5s 15s steps(20, end) forwards;
+  -moz-animation: type .5s 15s steps(20, end) forwards;
+  -o-animation: type .5s 15s steps(20, end) forwards;
+  animation: type .5s 15s steps(20, end) forwards;
+}
+.cursor3 {
+  color: #8da4b6;
+  -webkit-animation: blink 1s 15s 2 forwards;
+  -moz-animation: blink 1s 15s 2 forwards;
+  -o-animation: blink 1s 15s 2 forwards;
+  animation: blink 1s 15s 2 forwards;
+}
+
+.line03 {
+  color: #848884;
+  transition: opacity 5s ease;
+  -webkit-animation: type .5s 17s steps(20, end) forwards;
+  -moz-animation: type .5s 17s steps(20, end) forwards;
+  -o-animation: type .5s 17s steps(20, end) forwards;
+  animation: type .5s 17s steps(20, end) forwards;
+}
+.cursor03 {
+  color: #848884;
+  -webkit-animation: blink 1s 17s 2 forwards;
+  -moz-animation: blink 1s 17s 2 forwards;
+  -o-animation: blink 1s 17s 2 forwards;
+  animation: blink 1s 17s 2 forwards;
+}
+
+.line4 {
+  color: #8da4b6;
+  transition: opacity 5s ease;
+  -webkit-animation: type .5s 19s steps(20, end) forwards;
+  -moz-animation: type .5s 19s steps(20, end) forwards;
+  -o-animation: type .5s 19s steps(20, end) forwards;
+  animation: type .5s 19s steps(20, end) forwards;
+}
+.cursor4 {
+  color: #8da4b6;
+  -webkit-animation: blink 2s 19s 2 forwards;
+  -moz-animation: blink 2s 19s 2 forwards;
+  -o-animation: blink 2s 19s 2 forwards;
+  animation: blink 2s 19s 2 forwards;
+}  
+
+  .fakeScr1 {
+    min-height: 50px;
+    background-color: #000000;
+    box-sizing: border-box;
+    border-width: 1px;
+    border-style: solid;
+    border-image: radial-gradient(#4682B4, #000000) 1 100%;
+    width: 85%;
+    margin: 50px auto;
+    padding: 30px;
+    align-items: center;
+    justify-content: center;
+    animation: cssAnimationHidden 0s 21s forwards;
+    visibility: hidden;
+  }
+
