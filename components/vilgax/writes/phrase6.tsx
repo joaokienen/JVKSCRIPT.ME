@@ -1,5 +1,5 @@
 import styles from '../../../styles/zipo/Vilgax.module.scss';
-import VilgaxZ from '../body/bodyvilgaxZ';
+import VilgaxX from '../body/bodyvilgaxZ';
 
 export default function Phrase6 () {
     return (
@@ -12,7 +12,7 @@ export default function Phrase6 () {
             <p id="cursorD" className={styles.line5}>[+] Vilgax Content here<span className={styles.cursor5}>_</span></p>
             <p id="cursorE" className={styles.line6}>[+] Vilgax Content here<span className={styles.cursor6}>_</span></p>    
 
-            <VilgaxZ />
+            <VilgaxX />
         </>
     )
 }
