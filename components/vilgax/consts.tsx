@@ -36,7 +36,8 @@ export const destiny = (e) => {
       e.currentTarget.style.opacity = '1';
       $("#cursorE").css("opacity", "0.2");
 
-      if (e.target.outerText == "Material") {
+      if (e.target.outerText == "Material" || e.target.outerText == "0") {
+        if (e.target.outerText == "0") {setTimeout(() => {$('#demo_setor').text("Sobre o seu lado Material");}, 1000); setTimeout(() => {$("#demo_setor").css("color", "#f77744");}, 3000);}
         setTimeout(() => {$('#demo_frase').text(zeroFrase)}, 2000);
         setTimeout(() => {$("#demo_frase").css("color", "#f77744");}, 3000);
         setTimeout(() => {$("#demo_frase").css("opacity", "0.2");}, 20000);
@@ -46,7 +47,8 @@ export const destiny = (e) => {
         setTimeout(() => {$('#demo_main').text(zeroMaterial)}, 15000);
         setTimeout(() => {$("#demo_main").css("color", "#f77744");}, 16000);
       } 
-      if (e.target.outerText == "Emocional") {
+      if (e.target.outerText == "Emocional" || e.target.outerText == "1") {
+        if (e.target.outerText == "1") {setTimeout(() => {$('#demo_setor').text("Sobre o seu lado Emocional");}, 1000); setTimeout(() => {$("#demo_setor").css("color", "#f77744");}, 3000);}
         setTimeout(() => {$('#demo_frase').text(zeroFrase)}, 2000);
         setTimeout(() => {$("#demo_frase").css("color", "#f77744");}, 3000);
         setTimeout(() => {$("#demo_frase").css("opacity", "0.2");}, 20000);
@@ -56,7 +58,8 @@ export const destiny = (e) => {
         setTimeout(() => {$('#demo_main').text(zeroEmocional)}, 15000);
         setTimeout(() => {$("#demo_main").css("color", "#f77744");}, 16000);
       } 
-      if (e.target.outerText == "Espiritual") {
+      if (e.target.outerText == "Espiritual" || e.target.outerText == "2") {
+        if (e.target.outerText == "2") {setTimeout(() => {$('#demo_setor').text("Sobre o seu lado Espiritual");}, 1000); setTimeout(() => {$("#demo_setor").css("color", "#f77744");}, 3000);}
         setTimeout(() => {$('#demo_frase').text(zeroFrase)}, 2000);
         setTimeout(() => {$("#demo_frase").css("color", "#f77744");}, 3000);
         setTimeout(() => {$("#demo_frase").css("opacity", "0.2");}, 20000);
@@ -66,7 +69,8 @@ export const destiny = (e) => {
         setTimeout(() => {$('#demo_main').text(zeroEspiritual)}, 15000);
         setTimeout(() => {$("#demo_main").css("color", "#f77744");}, 16000);
       } 
-      if (e.target.outerText == "Intelectual") {
+      if (e.target.outerText == "Intelectual" || e.target.outerText == "3") {
+        if (e.target.outerText == "3") {setTimeout(() => {$('#demo_setor').text("Sobre o seu lado Intelectual");}, 1000); setTimeout(() => {$("#demo_setor").css("color", "#f77744");}, 3000);}
         setTimeout(() => {$('#demo_frase').text(zeroFrase)}, 2000);
         setTimeout(() => {$("#demo_frase").css("color", "#f77744");}, 3000);
         setTimeout(() => {$("#demo_frase").css("opacity", "0.2");}, 20000);
